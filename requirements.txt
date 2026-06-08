@@ -1,0 +1,7 @@
+requests>=2.31.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+beautifulsoup4>=4.12.0
+# LLM runs locally via Ollama (https://ollama.com) — no Python SDK needed.
+# Optional, only for scraping JS-heavy career pages (CAREERS_RENDER=1):
+#   pip install playwright && playwright install chromium
